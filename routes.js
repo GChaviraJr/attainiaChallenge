@@ -3,7 +3,7 @@ import Table from './src/components/Table.vue'
 import Table2 from './src/components/Table2.vue'
 
 export const routes = [
-    { path: '/', component: Home},
-    { path: '/table1', component: Table},
-    { path: '/table2', component: Table2}
+    { path: '/attainiaChallenge/', component: Home},
+    { path: '/attainiaChallenge/table1', component: Table},
+    { path: '/attainiaChallenge/table2', component: Table2}
 ]

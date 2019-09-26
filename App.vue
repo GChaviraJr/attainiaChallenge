@@ -2,9 +2,9 @@
   <div id="app">
     <h1 msg="Welcome my page!"/>
     <p>
-    <router-link to="/">Go to Home Page</router-link>
-    <router-link to="/table1"> Go to Table 1 Page</router-link>
-    <router-link to="/table2"> Go to Table 2 Page</router-link>
+    <router-link to="/attainiaChallenge/">Go to Home Page</router-link>
+    <router-link to="/attainiaChallenge/table1"> Go to Table 1 Page</router-link>
+    <router-link to="/attainiaChallenge/table2"> Go to Table 2 Page</router-link>
     </p>
     <router-view></router-view>
   </div>
@@ -21,7 +21,7 @@ export default {
     goBack() {
       window.history.length > 1
         ? this.$router.go(-1)
-        : this.$router.push('/')
+        : this.$router.push('/attainiaChallenge/')
     }
   },
   name: 'app'
