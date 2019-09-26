@@ -27,6 +27,7 @@ http.createServer((req, res) => {
 })
 
 const router = new VueRouter({
+  mode: 'history',
   routes
 })
 
