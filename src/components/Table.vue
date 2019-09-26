@@ -32,7 +32,7 @@
 
 <script>
 // above in TR within THEAD could have dynamically added the same mapping to iterate and dynamiccaly add the items to the THEAD
-import json from "../users.json" // could have done a back end server response CRUD to send/ receive json data
+import json from "../../users.json" // could have done a back end server response CRUD to send/ receive json data
 export default {
   isRed: false,
   name: 'Table',

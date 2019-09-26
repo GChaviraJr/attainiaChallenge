@@ -1,6 +1,6 @@
-import Home from './components/Home.vue'
-import Table from './components/Table.vue'
-import Table2 from './components/Table2.vue'
+import Home from './src/components/Home.vue'
+import Table from './src/components/Table.vue'
+import Table2 from './src/components/Table2.vue'
 
 export const routes = [
     { path: '/', component: Home},

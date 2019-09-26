@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import json from "../users.json"
+import json from "../../users.json"
 export default {
   isGreen: false,
   name: 'Table2',
