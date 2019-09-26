@@ -3,11 +3,11 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import { routes } from './routes'
 
-const http = require('http')
+const https = require('https')
 const fs = require('fs')
 const httpPort = 80
 
-http.createServer((req, res) => {
+https.createServer((req, res) => {
   fs.readFile('index.htm', 'utf-8', (err, content) => {
     if (err) {
       console.log('We cannot open "index.htm" file.')
